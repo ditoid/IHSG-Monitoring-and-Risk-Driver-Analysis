@@ -35,17 +35,21 @@ This project aims to provide a comprehensive view by combining multiple market s
 
 Four market risk indicators were defined as:
 
-Drawdown         | Peak-to-trough decline 
-Volatility       | Rolling market volatility 
-Trading Ratio    | Trading activity anomaly 
-Gap Percentage   | Opening gap behavior 
+| Metric | Description |
+|----------|----------|
+| Drawdown        | Peak-to-trough decline |
+| Volatility      | Rolling market volatility |
+| Trading Ratio   | Trading activity anomaly |
+| Gap Percentage  | Opening gap behavior |
 
 ### 2. Percentile Ranking
 
 Each metric is converted into a percentile rank:
 
+```text
 0.00 = Lowest historical risk
 1.00 = Highest historical risk
+```
 
 ### 3. Crisis Score
 
@@ -58,20 +62,24 @@ A composite crisis score is calculated from:
 
 ### 4. Market Regime Classification
 
-Crisis Score | Market Status 
-< 30%        | Normal 
-30% – 60%    | Caution 
-60% – 90%    | Stress 
-≥ 90%        | Crisis 
+| Crisis Score | Market Status |
+|----------|----------|
+| < 30%     | Normal |
+| 30% – 60% | Caution |
+| 60% – 90% | Stress |
+| ≥ 90%     | Crisis |
+
+---
 
 ## Event Validation
 
-Event | Period |
-Yuan Devaluation      | Jun 2015 – Feb 2016 
-Fed Rate Hikes        | Jan 2018 – Dec 2018 
-COVID-19 Pandemic     | Mar 2020 – Mar 2021 
-US-China Trade War    | Feb 2025 – Oct 2025 
-Iran War              | Feb 2026 – Apr 2026 
+| Event | Period |
+|----------|----------|
+| Yuan Devaluation     | Jun 2015 – Feb 2016 |
+| Fed Rate Hikes       | Jan 2018 – Dec 2018 |
+| COVID-19 Pandemic    | Mar 2020 – Mar 2021 |
+| US-China Trade War   | Feb 2025 – Oct 2025 |
+| Iran War             | Feb 2026 – Apr 2026 |
 
 ---
 
