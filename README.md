@@ -11,6 +11,8 @@ The framework combines four market dimensions:
 - Trading Activity Risk
 - Price Gap Risk
 
+<img width="963" height="538" alt="image" src="https://github.com/user-attachments/assets/fd6c22f8-1356-449c-bd95-d031fc97ce39" />
+
 These metrics are transformed into percentile ranks and aggregated into a crisis score used to classify market conditions.
 
 ---
